@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<title>PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.color{
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+.color2{
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+}
+.c3{
+  color: black;
+}
+h3{
+  color: black;
+}
+h2{
+  color: ;
+}
+.social-icon{
+    list-style-type: none;
+    padding: 0;
+
+   }
+.social-icon.fa-whatsapp {
+  background: green;
+  color: green;
+}
+
+
+.social-icon.fa-instagram {
+  background: #125688;
+  color: orangered;
+}
+.social-icon li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.social-icon i{
+  font-size: 35px;
+  color: darkblue;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 22px rgba(0,0,0,0.1);
+  padding: 12px;
+
+}
+
+.social-icon i.fa-whatsapp{
+  font-size: 35px;
+  color: green;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .social-icon i.fa-instagram{
+  font-size: 35px;
+  color: darkorange;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .social-icon i.fa-facebook{
+  font-size: 35px;
+  color: slateblue;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .social-icon i.fa-linkedin{
+  font-size: 35px;
+  color: cadetblue;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .social-icon i.fa-youtube{
+  font-size: 35px;
+  color: palevioletred;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .social-icon i.fa-twitter{
+  font-size: 35px;
+  color: royalblue;
+  padding: 12px;
+  background-color: #fff;
+  }
+  .w3-jumbo{
+    color:goldenrod;
+    font-style: italic;
+  transition: 2s;
+}
+
+
+  }
+  .w3-jumbo:hover{
+  color: lightpink;
+
+  }
+
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKdvkRCDv-IeCzs2L7R3iQSJfsJrz4B9IQ0w&usqp=CAU");
+}
+
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="myi4.jpeg" style="width:100%">
+  <a href="portfolio2.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="about2.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+    <a href="resume3.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+  <a href="myprojects.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-folder w3-xxlarge"></i>
+    <p>MY PROJECTS</p>
+  </a>
+
+  <a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-image w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="contact2.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-phone w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="portfolio2.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="about2.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+     <a href="resume3.html" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
+    <a href="myprojects.html" class="w3-bar-item w3-button" style="width:25% !important">MY PROJECTS</a>
+    <a href="photos.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="contact2.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span>Shreya Jain.</h1>
+    <h2 class="w3-text-white"><p>Dancer and Web Developer(About Myself)</p></h2>
+    <!-- <img src="myi8.jpeg" alt="boy" class="w3-image" width="992" height="1108"> -->
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-white">My Name</h2>
+    <hr style="width:800px" class="w3-opacity">
+    <p class="color">
+      Hello,<br>
+      I’m Shreya Jain pusuing Bachelor's of Technology with Computer Science from BABULAL TARABAI INSTITUTE OF RESEARCH AND TECHNOLOGY(SAGAR). I’m looking for an opportunity to gain experience in [Cooperate Sector] so that I can become a Cooperate Leader,to be interprising in dynamic in approach, preferably one that involves a lot of client work and project management.
+      I’ve been working on my portfolio since very long, but now it’s time to show the world what I’ve got. And that’s why I’ve created this website—so you can see my work so far and get a sense of who I am as a web devloper.<br>
+      If you’d like to learn more about me, check out my vlogs and dance videos at [shreya's dance creation] and[shreya's jouney to vlogging].<br>You can also follow me on social media at [nritya_shreya.jain2004].<br>
+      
+    <button class="w3-button w3-light-grey w3-padding-small w3-section">
+<h2 class="c3">
+My skills include:</h2></button><br>
+<p class="color2">
+
+– [FULL STACK DEVELOPER]<br>
+– [LOGO DESIGNER]<br>
+– [PHOTOGRAPHY]<br>
+– [CREATIVITY]<br>
+– [CONTENT CREATOR(Vlogger)]<br>
+- [Kathak Dancer]<br>
+
+My professors have told me that I am very organized and detail-oriented, which is why I think this job would be a good fit for mee.</p>
+    </p>
+    <button class="w3-button w3-light-grey w3-padding-small w3-section">
+    <h3 class="w3-padding-16"> My  Skills</h3></button>
+
+    <p class="w3-wide w3-text-white">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide w3-text-white">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+        <p class="w3-wide w3-text-white">Logo Designer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide w3-text-white">Content Creator(YOUTUBER)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div><br>
+    
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> 
+        <a href="resume2.html"> Download Resume</a></button>
+
+<!--   <div class="w3-padding-64 w3-content" id="photos2">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:300px"  class="w3-opacity">
+
+    <! Grid for photos -->
+<!--     <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="myi25.jpeg" style="width:300px" style="height:200px">
+        <img src="myi26.jpeg" style="width:300px" style="height:200px">
+      </div>
+        <div class="w3-half">
+<!-   <img src="myi23.jpeg" style="width:300px" style="height:200px">
+        <img src="myi24.jpeg" style="width:300px" style="height:200px">
+        </div>
+    </div>
+</div> -->
+    
+</div>
+</body>
+</html>
